@@ -65,7 +65,7 @@ public class EliteClubService {
         return repository.save(updatedClub);
     }
 
-    public List<Billionaire> fetchPreview() throws JsonProcessingException {
+    public List<Billionaire> fetchPreview() {
         final ResponseEntity<Billionaire[]> billionaireResponseEntity = restTemplate.getForEntity("http://localhost:8080/BillionaireAppSpring/api/billionaires", Billionaire[].class);
 
         if(!billionaireResponseEntity.getStatusCode().is2xxSuccessful()) {

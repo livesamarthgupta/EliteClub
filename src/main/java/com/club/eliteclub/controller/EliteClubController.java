@@ -58,7 +58,7 @@ public class EliteClubController {
     }
 
     @GetMapping(path = "/club/billionaire/preview", produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<Billionaire> preview() throws JsonProcessingException {
+    public List<Billionaire> preview() {
         return clubService.fetchPreview();
     }
 
