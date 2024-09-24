@@ -25,6 +25,11 @@ public class EliteClubApplication implements ApplicationRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EliteClubApplication.class, args);
+		// these lines are added becuase of dev1
+		// dev1
+		// dev1
+		// dev1
+		// dev1
 	}
 
 	@Override
