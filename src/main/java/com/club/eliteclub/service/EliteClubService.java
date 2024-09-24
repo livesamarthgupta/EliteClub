@@ -24,7 +24,7 @@ public class EliteClubService {
     private static final Logger LOG = LoggerFactory.getLogger(EliteClubService.class);
     @Autowired
     private EliteClubRepository repository;
-    // yet again conflicting change
+    // this is conflicting change
 
     @Autowired
     private RestTemplate restTemplate;
