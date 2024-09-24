@@ -25,10 +25,20 @@ public class EliteClubApplication implements ApplicationRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EliteClubApplication.class, args);
+		// these lines are added becuase of dev1
+		// dev1
+		// dev1
+		// dev1
+		// dev1
 	}
 
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
+		// these lines are added becuase of dev1
+		// dev1
+		// dev1
+		// dev1
+		// dev1
 		eliteClubService.addClub(new Club("Billionaire", 5));
 		eliteClubService.addClub(new Club("Environmentalist", 3));
 		eliteClubService.addClub(new Club("Poker", 1));
